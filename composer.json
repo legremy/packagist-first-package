@@ -1,0 +1,21 @@
+{
+    "name": "michka/first-package",
+    "description": "Just a test composer/packagist",
+    "type": "package",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikaël Scuiller",
+            "email": "le_gremy@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Carmine\\Yousign\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
